@@ -46,4 +46,4 @@ Note further that I use the find_or_create_from_import for Item.  The only signi
 
 #### Testing
 
-Depending on company and project expectations I would normally test drive a project like this.  At Fiduciary Benchmarks we had an excellent testing track record.  But since I was told not to spend too much time on it I've instead opted to provide a sample of the kinds of tests I would write for an app like this. I have one unit test and one integration test written in RSpec.
+I've provided unit testing coverage at 100%.  The simplecov gem is included an the report is updated.  Simply check coverage/index.html to verify.  Feature tests are provided for all pages as well.
